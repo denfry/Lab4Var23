@@ -183,10 +183,8 @@ public class EmployeeManagerTableApp extends Application {
             Employee employee;
 
             if (isPrivate) {
-
                 employee = new SecurityGuard(name, salary, age, isPrivate);
             } else {
-
                 employee = new Manager(name, salary, age, department);
             }
 
